@@ -13,8 +13,11 @@ const navigation = [
 ];
 
 const roles = [
-  "Final Year B.Tech CSE Student",
-  "Frontend Developer",
+  "3rd Year B.Tech CSE Student",
+  "Aspiring AI Engineer",
+  "Python Developer",
+  "Learning Machine Learning",
+  "Exploring DSA in Java",
 ];
 
 function Icon({
@@ -111,7 +114,7 @@ export default function Home() {
         <nav className="mx-auto flex max-w-7xl items-center justify-between px-5 py-4 sm:px-8 sm:py-5">
 
           <Link href="/" className="group text-lg font-bold sm:text-2xl">
-            ADITYA <span className="text-cyan-400">MULLICK</span>
+            PRIYANSHU <span className="text-cyan-400">RIYAL</span>
             <span className="mt-1 block h-[2px] w-0 bg-cyan-400 transition-all duration-300 group-hover:w-full" />
           </Link>
 
@@ -145,8 +148,8 @@ export default function Home() {
 
             <div className="relative h-[230px] w-[205px] overflow-hidden rounded-[45%_55%_60%_40%/40%_45%_55%_60%] border-2 border-cyan-400 bg-gray-900 shadow-[0_0_30px_rgba(34,211,238,0.3)] sm:h-[300px] sm:w-[265px] lg:h-[385px] lg:w-[340px]">
               <img
-                src="/profile.jpg"
-                alt="Aditya Mullick"
+                src="/profile.jpeg"
+                alt="Priyanshu Riyal"
                 className="h-full w-full object-cover"
               />
             </div>
@@ -181,9 +184,9 @@ export default function Home() {
         >
 
           <h1 className="text-3xl font-bold leading-tight sm:text-4xl md:text-5xl lg:text-[48px]">
-            Hi, I'm Aditya
+            Hi, I'm Priyanshu
             <br />
-            <span className="text-cyan-400">Mullick</span>
+            <span className="text-cyan-400">Riyal</span>
           </h1>
 
           <div className="mt-3 min-h-9 text-xl font-bold text-purple-400 sm:mt-5 sm:min-h-12 sm:text-2xl lg:text-[30px]">
@@ -192,17 +195,19 @@ export default function Home() {
           </div>
 
           <p className="mt-3 max-w-xl text-sm leading-7 text-gray-400 sm:mt-6 sm:text-base sm:leading-8 lg:text-[17px] lg:leading-7">
-            I am a Final Year B.Tech Computer Science student and Frontend
-            Developer passionate about creating modern, responsive, and
-            user-friendly web applications. I enjoy learning new technologies,
-            solving problems, and building practical projects.
+            I am a third-year B.Tech Computer Science student and aspiring AI
+            Engineer passionate about Artificial Intelligence, Python, and
+            Machine Learning. I enjoy exploring new technologies, improving
+            my problem-solving skills through Java and Data Structures and
+            Algorithms, and building practical projects using AI and modern
+            development tools.
           </p>
 
           {/* SOCIAL LINKS */}
           <div className="mt-5 flex justify-center gap-3 sm:mt-8 sm:gap-4 md:justify-start">
 
             <a
-              href="https://github.com/Adi8420"
+              href="https://github.com/GxPriyanshu"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="GitHub"
@@ -212,7 +217,7 @@ export default function Home() {
             </a>
 
             <a
-              href="https://www.linkedin.com/in/aditya-sharma-a11581326/"
+              href="https://www.linkedin.com/in/priyanshu-riyal/"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="LinkedIn"
@@ -222,7 +227,7 @@ export default function Home() {
             </a>
 
             <a
-              href="https://leetcode.com/u/iWLCZaDMmP/"
+              href="https://leetcode.com/u/priyanshuriyal961/"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="LeetCode"
@@ -237,7 +242,7 @@ export default function Home() {
           <div className="mt-5 flex flex-wrap justify-center gap-3 sm:mt-8 sm:gap-4 md:justify-start">
 
             <a
-              href="/Aditya_Mullick_CV.pdf"
+              href="/priyanshu.pdf"
               download
               className="flex items-center gap-2 rounded-full border border-gray-500 px-4 py-2.5 text-sm font-medium text-white transition-all duration-300 hover:border-cyan-400 hover:text-cyan-400 sm:px-6 sm:py-3 sm:text-base"
             >
@@ -246,7 +251,7 @@ export default function Home() {
             </a>
 
             <a
-              href="mailto:Habibigamerz9@gmail.com"
+              href="mailto:priyanshuriyal961@gmail.com"
               className="flex items-center gap-2 rounded-full bg-white px-4 py-2.5 text-sm font-semibold text-black transition-all duration-300 hover:bg-cyan-400 hover:shadow-[0_0_20px_rgba(34,211,238,0.3)] sm:px-6 sm:py-3 sm:text-base"
             >
               Contact Me
@@ -260,7 +265,7 @@ export default function Home() {
 
       {/* FOOTER */}
       <footer className="relative z-10 shrink-0 border-t border-gray-800 px-5 py-4 text-center text-xs text-gray-500 sm:px-6 sm:py-5 sm:text-sm">
-        © 2026 Aditya Mullick. All rights reserved.
+        © 2026 Priyanshu Riyal. All rights reserved.
       </footer>
 
     </main>

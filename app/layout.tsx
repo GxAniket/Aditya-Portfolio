@@ -7,12 +7,15 @@ import Cursor from "../components/Cursor";
 import { Geist } from "next/font/google";
 import { cn } from "@/lib/utils";
 
-const geist = Geist({subsets:['latin'],variable:'--font-sans'});
+const geist = Geist({
+  subsets: ["latin"],
+  variable: "--font-sans",
+});
 
 export const metadata: Metadata = {
-  title: "Aditya Mullick | Portfolio",
+  title: "Priyanshu Riyal | Portfolio",
   description:
-    "Portfolio of Aditya Mullick - Software Engineer, Python Developer and AI/ML Enthusiast.",
+    "Portfolio of Priyanshu Riyal - Aspiring AI Engineer, Python Developer and Machine Learning Enthusiast.",
 };
 
 export default function RootLayout({
@@ -21,7 +24,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={cn("font-sans", geist.variable)}>
+    <html
+      lang="en"
+      className={cn("font-sans", geist.variable)}
+      data-scroll-behavior="smooth"
+    >
       <body>
         <Navbar />
         <Cursor />

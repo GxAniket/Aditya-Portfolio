@@ -58,7 +58,7 @@ export default function ContactPage() {
     ].join("\n");
 
     const mailto =
-      `mailto:Habibigamerz9@gmail.com?subject=${encodeURIComponent(subject)}` +
+      `mailto:priyanshuriyal961@gmail.com?subject=${encodeURIComponent(subject)}` +
       `&body=${encodeURIComponent(body)}`;
 
     window.location.href = mailto;
@@ -244,7 +244,7 @@ export default function ContactPage() {
 
               {/* Email */}
               <a
-                href="mailto:Habibigamerz9@gmail.com"
+                href="mailto:priyanshuriyal961@gmail.com"
                 className="group flex items-center gap-3 rounded-xl border border-white/10 bg-white/[0.04] p-3 transition hover:border-cyan-400/40 hover:bg-cyan-400/[0.05]"
               >
                 <div className="rounded-lg bg-cyan-400/10 p-2.5 text-cyan-400">
@@ -254,7 +254,7 @@ export default function ContactPage() {
                 <div className="min-w-0 flex-1">
                   <p className="text-xs text-gray-500">Email</p>
                   <p className="break-all text-sm text-gray-200">
-                    Habibigamerz9@gmail.com
+                    priyanshuriyal961@gmail.com
                   </p>
                 </div>
 
@@ -273,14 +273,14 @@ export default function ContactPage() {
                 <div>
                   <p className="text-xs text-gray-500">Location</p>
                   <p className="text-sm text-gray-200">
-                    Kolkata, India
+                    Rishikesh, Uttarakhand, India
                   </p>
                 </div>
               </div>
 
               {/* GitHub */}
               <a
-                href="https://github.com/Adi8420"
+                href="https://github.com/GxPriyanshu"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group flex items-center gap-3 rounded-xl border border-white/10 bg-white/[0.04] p-3 transition hover:border-cyan-400/40 hover:bg-cyan-400/[0.05]"
@@ -292,7 +292,7 @@ export default function ContactPage() {
                 <div className="min-w-0 flex-1">
                   <p className="text-xs text-gray-500">GitHub</p>
                   <p className="text-sm text-gray-200">
-                    github.com/Adi8420
+                    github.com/GxPriyanshu
                   </p>
                 </div>
 
@@ -304,7 +304,7 @@ export default function ContactPage() {
 
               {/* LinkedIn */}
               <a
-                href="https://www.linkedin.com/in/aditya-sharma-a11581326/"
+                href="https://www.linkedin.com/in/priyanshu-riyal/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group flex items-center gap-3 rounded-xl border border-white/10 bg-white/[0.04] p-3 transition hover:border-cyan-400/40 hover:bg-cyan-400/[0.05]"
@@ -340,7 +340,7 @@ export default function ContactPage() {
 
         {/* Footer */}
         <p className="mt-3 text-center text-[11px] text-gray-500">
-          © 2026 Aditya Mullick. All rights reserved.
+          © 2026 Priyanshu Riyal. All rights reserved.
         </p>
 
       </section>

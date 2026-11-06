@@ -47,9 +47,9 @@ export default function Navbar() {
 
         {/* LOGO */}
         <Link href="/" className="group relative text-xl font-bold sm:text-2xl">
-          <span className="text-white">ADITYA</span>{" "}
+          <span className="text-white">PRIYANSHU</span>{" "}
           <span className="bg-gradient-to-r from-cyan-400 via-blue-400 to-purple-500 bg-clip-text text-transparent">
-            MULLICK
+            RIYAL
           </span>
           <span className="absolute -bottom-1 left-0 h-[2px] w-0 rounded-full bg-gradient-to-r from-cyan-400 to-purple-500 transition-all duration-300 group-hover:w-full" />
         </Link>
@@ -159,7 +159,7 @@ export default function Navbar() {
             })}
 
             <p className="absolute bottom-8 text-xs uppercase tracking-[0.3em] text-gray-500">
-              Aditya Mullick
+              Priyanshu Riyal
             </p>
           </motion.div>
         )}
